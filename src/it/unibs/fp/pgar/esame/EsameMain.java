@@ -20,6 +20,8 @@ public class EsameMain {
 				p.scontro(false); //false e true indicano se lo scontro avviene con un mostro con o senza chiave
 			if(azione == 'B')	
 				p.scontro(true); //false e true indicano se lo scontro avviene con un mostro con o senza chiave
+			if(azione=='D')
+				p.scontroFinale();
 			if(azione == 'K')
 				vinto = true;
 			

@@ -77,7 +77,8 @@ public class Turno {
 		return 'B';
 	if(piano.getMappaPiano()[y][x] == 'K')
 		return 'K';
-	
+	if(piano.getMappaPiano()[y][x] == 'D')
+		return 'D';
 	if(piano.getMappaPiano()[y][x] == 'C') {
 		Chest chest = new Chest();
 		chest.generaChest();
